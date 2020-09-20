@@ -5,7 +5,7 @@ def capitaliser_pays(nom):
     nom = nom.title()
 
     if nom == "Antigua And Barbuda":
-        nom = nom.replace("And", "and")
+    nom = nom.replace("And", "and")
     return nom
 
 
