@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
-    # TODO completer la fonction
+    nom = nom.casefold()
+    nom = nom.title()
+
+    if nom == "Antigua And Barbuda":
+        nom = nom.replace("And", "and")
     return nom
 
 
